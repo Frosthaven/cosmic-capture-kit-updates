@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "notes": "Unified recording controls, Linux resident daemon, and session icon presence (DRAGON-172 through 174). In-app updates from the About page.",
+  "published": "2026-07-12T00:00:00Z",
+  "platforms": {
+    "macos": {
+      "url": "https://frosthaven.github.io/cosmic-capture-kit-updates/CosmicCaptureKit-0.2.0.dmg",
+      "sha256": "418417427953bc402dd28db38adaca2814627a7652ca7fa16ec2e01d534b4972",
+      "size": 77314590
+    }
+  }
+}

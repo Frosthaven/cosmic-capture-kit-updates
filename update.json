@@ -1,12 +1,12 @@
 {
-  "version": "0.4.2",
-  "notes": "## v0.4.2\r\n\r\nThis release brings automatic update notifications, with version checking and control available in the settings \"About\" section.\r\n\r\nChanges since v0.4.0:\r\n\r\n- [`0e54987`](https://github.com/Frosthaven/cosmic-capture-kit/commit/0e549873ce63f8a42113d02e0a6a089e99d031cc) ([DRAGON-176](https://linear.app/dragon-development/issue/DRAGON-176)): README describes the two build workflows accurately\r\n- [`f03ca54`](https://github.com/Frosthaven/cosmic-capture-kit/commit/f03ca541775566baa8ddb562c5f4044290c09ff0) ([DRAGON-176](https://linear.app/dragon-development/issue/DRAGON-176)): rename actions and add a Build Only workflow\r\n- [`ab6d2db`](https://github.com/Frosthaven/cosmic-capture-kit/commit/ab6d2dbddd6a5ed0639ff4e2436e5e48fd433b8a): chore: clean stale workflow comments after the CI removal\r\n- [`079497b`](https://github.com/Frosthaven/cosmic-capture-kit/commit/079497b15d80509ad2d2fd2309f825bd5b8a52d2): chore: remove the manual-only CI workflow\r\n- [`a2272d5`](https://github.com/Frosthaven/cosmic-capture-kit/commit/a2272d5fc550daea1d61f568645d59b2e6b885e6) ([DRAGON-176](https://linear.app/dragon-development/issue/DRAGON-176)): job name says what it does (build artifacts and draft the release)\r\n- [`4185371`](https://github.com/Frosthaven/cosmic-capture-kit/commit/41853710e1c33af59bd24d115d471eff0293c55f) ([DRAGON-176](https://linear.app/dragon-development/issue/DRAGON-176)): CLAUDE.md reflects the one-trigger release flow\r\n- [`f2e04db`](https://github.com/Frosthaven/cosmic-capture-kit/commit/f2e04dbb93d9b130e72576cfc5d64d7393753db2) ([DRAGON-176](https://linear.app/dragon-development/issue/DRAGON-176)): the build workflow drafts the release itself; version 0.4.2\r\n- [`1f7ee1f`](https://github.com/Frosthaven/cosmic-capture-kit/commit/1f7ee1f741e4e62ab9add72868e1dd53b2437eb7) ([DRAGON-176](https://linear.app/dragon-development/issue/DRAGON-176)): manual builds attach to the release; the channel ships only on publish\r\n- [`0b62453`](https://github.com/Frosthaven/cosmic-capture-kit/commit/0b62453d8e3b5cfcec67f0e3569284f3706103fb) ([DRAGON-176](https://linear.app/dragon-development/issue/DRAGON-176)): publish job waits for the dmg instead of failing on an early publish\r",
-  "published": "2026-07-12T17:50:12Z",
+  "version": "0.4.3",
+  "notes": "This release brings several features and enhancements to macOS:\r\n- The about page of settings now carries update functionality, with patch notes and a notification toggle.\r\n- Video recording has been optimized at all scales. You can now record even on incredibly large studio displays.\r\n- Editing overlay has been enabled as an option if you prefer that for quick actions instead of opening a new window.",
+  "published": "2026-07-12T19:08:33Z",
   "platforms": {
     "macos": {
-      "url": "https://frosthaven.github.io/cosmic-capture-kit-updates/CosmicCaptureKit-0.4.2.dmg",
-      "sha256": "a6b0c3b1155228d2abb48858cf0cdd93eb3211bd89b97faae4132cfd4493bdb1",
-      "size": 75063385
+      "url": "https://frosthaven.github.io/cosmic-capture-kit-updates/CosmicCaptureKit-0.4.3.dmg",
+      "sha256": "5670f0d2d59f0e2864035b3ebdb7fb5f0778ade55c77a6125b06acde0043dfda",
+      "size": 75279009
     }
   }
 }

@@ -1,12 +1,12 @@
 {
-  "version": "0.4.4",
-  "notes": "This update brings much faster update notifications on launch.",
-  "published": "2026-07-12T19:47:00Z",
+  "version": "0.4.5",
+  "notes": "This release brings several features and enhancements to macOS:\r\n\r\n- The about page of settings now carries update functionality, with patch notes and a notification toggle.\r\n- Video recording has been optimized at all scales. You can now record even on incredibly large studio displays.\r\n- Editing overlay has been enabled as an option if you prefer that for quick actions instead of opening a new window.\r",
+  "published": "2026-07-12T20:03:27Z",
   "platforms": {
     "macos": {
-      "url": "https://frosthaven.github.io/cosmic-capture-kit-updates/CosmicCaptureKit-0.4.4.dmg",
-      "sha256": "733f396d8e7878e905476ddc1a56de3e7669cff03ac4f026f2ecb6231d52268d",
-      "size": 76366241
+      "url": "https://frosthaven.github.io/cosmic-capture-kit-updates/CosmicCaptureKit-0.4.5.dmg",
+      "sha256": "044084a752ba1d39d06635179ffc25889b3cdd7e5d0822158896ffa4d078be46",
+      "size": 76320225
     }
   }
 }

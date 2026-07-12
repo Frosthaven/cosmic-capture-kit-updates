@@ -1,12 +1,12 @@
 {
   "version": "0.3.0",
-  "notes": "In-app updates from the About page, unified recording controls with a Linux resident mode, 5K capture fixes, and a hardened recording pipeline.",
-  "published": "2026-07-12T04:27:45Z",
+  "notes": "## v0.3.0\r\n\r\nFirst tagged release. Recent changes:\r\n\r\n- DRAGON-176: auto-draft releases with commit notes; publishing ships the update\r\n- DRAGON-175: silence Linux dead-code warnings on the macOS-only update symbols\r\n- DRAGON-175: in-app updates from the About page, fed from GitHub Pages\r\n- DRAGON-174: fix Linux clippy doc-list warning in tray.rs\r\n- DRAGON-174: unified session-icon presence + replace systray/toolbar option\r\n- DRAGON-173: restructure the in-recording menu (uniform, with a Capture Menu submenu)\r\n- DRAGON-173: silence Linux dead-code warnings (quit_enabled, resident_menu_labels)\r\n- DRAGON-173: Linux resident mode (always-on ksni tray, full mac parity)\r\n- DRAGON-172: fix Linux clippy doc-list warning in tray.rs\r\n- DRAGON-172: recording-controls parity (mac toolbar+daemon, Linux tray menu+icon)\r\n- DRAGON-170: fix Linux zero-warnings build (TrayEvent::Cancel dead_code)\r\n- DRAGON-171: bump version to 0.1.0 (DRAGON-160..171 release)\r\n- DRAGON-170: paused icon state, Cancel recording menu item, Quit disabled while recording\r\n- DRAGON-170: widen the status icon's edge gaps (shorter corner stubs)\r\n- DRAGON-170: status icon shows corner brackets instead of a dashed border\r\n- DRAGON-170: dashed status icon border in both states\r\n- DRAGON-171: macOS preview-editor media ducking via MediaRemote proxy\r\n- DRAGON-170: daemon in-recording actions + two-state menu-bar icon\r\n- DRAGON-169: default max bitrate 8000 kbps\r\n- DRAGON-168: macOS recording delivers frames at the encode size (SCK GPU scaling)\r\n- DRAGON-167: fix the Linux PipeWire stale-frame shape + Linux anti-freeze test nets\r\n- DRAGON-164: fix macOS recorded video frozen frame (stale-feed under backpressure)\r\n- DRAGON-161: fix Linux zero-warnings build + test (deferred Linux verification pass)\r\n- DRAGON-163: encoder benchmark tests true monitor dimensions with a monitor picker\r\n- DRAGON-162: fix 5K monitor recording on both encoders (macOS)\r\n- DRAGON-161: make the platform seams explicit (seam map + recording-worker contract)\r\n- DRAGON-161: extract the shared media-clock stop tail into a portable, tested core\r\n- DRAGON-160: bound the macOS SCK stop-tail video write (preview no longer spins)\r",
+  "published": "2026-07-12T16:37:33Z",
   "platforms": {
     "macos": {
       "url": "https://frosthaven.github.io/cosmic-capture-kit-updates/CosmicCaptureKit-0.3.0.dmg",
-      "sha256": "6f8ad3f630eb12cc7cdc7e5012f7c4ed9dfa2941dc953ebc6ed416b230a92e87",
-      "size": 75760053
+      "sha256": "5057c4cd1ba7faa85c89ebb9bc7382c62b8585166721ed7555c48f48ac907f6a",
+      "size": 75091472
     }
   }
 }

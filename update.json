@@ -1,12 +1,12 @@
 {
-  "version": "0.6.0",
-  "notes": "Window capture improvements:\n- Captured windows now show as active or inactive to match the look you choose.\n- The window picker shows each display's own wallpaper instead of a gray background.\n- The window picker arranges many open windows in a grid so they stay large and easy to pick.\n- More windows appear in the picker, including System Settings.\n\nRedesigned window border settings:\n- Separate Active and Inactive borders, each with its own color and width.\n- The active border follows your system accent color by default.\n- A new drop shadow toggle for captured windows.\n\nOther fixes:\n- Your settings no longer reset when the app updates.",
-  "published": "2026-07-14T20:35:22Z",
+  "version": "0.6.1",
+  "notes": "Window picker improvements:\n- Capture launches faster again on macOS.\n- Windows on other desktops (Spaces) now show up in the picker.\n- Windows no longer appear multiple times when Stage Manager is on.\n- The window grid no longer overlaps the toolbar.",
+  "published": "2026-07-14T22:01:37Z",
   "platforms": {
     "macos": {
-      "url": "https://frosthaven.github.io/cosmic-capture-kit-updates/CosmicCaptureKit-0.6.0.dmg",
-      "sha256": "cd1995e10974616eecb442e9adb86489de527f2081ab370d1200ff15064068d9",
-      "size": 76398628
+      "url": "https://frosthaven.github.io/cosmic-capture-kit-updates/CosmicCaptureKit-0.6.1.dmg",
+      "sha256": "a82193c917b90e3a408c4600fb972cdc789ade314f9ce647adc8783cbbf5b493",
+      "size": 76409096
     }
   }
 }

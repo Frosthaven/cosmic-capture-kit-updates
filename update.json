@@ -1,12 +1,12 @@
 {
-  "version": "0.5.0",
-  "notes": "This update brings compositor features to screenshots on macOS:\n- Freeze pixels during selection\n- Preserve mouse cursor\n- Preserve window transparency\n- Preserve wallpaper\n\nIt also brings single window aesthetics to capture compositing:\n- Window border style\n- Padding around the window",
-  "published": "2026-07-13T23:43:40Z",
+  "version": "0.5.1",
+  "notes": "Fixes for macOS window capture:\n- The single window border now hugs the window's rounded corners.\n- Only the wallpaper shows behind a captured window, with no other windows bleeding through.",
+  "published": "2026-07-14T02:04:43Z",
   "platforms": {
     "macos": {
-      "url": "https://frosthaven.github.io/cosmic-capture-kit-updates/CosmicCaptureKit-0.5.0.dmg",
-      "sha256": "470ac4e5d748881b15172a7ad326273e965e1c8ccee1cb3c038801d1e632e09f",
-      "size": 76433012
+      "url": "https://frosthaven.github.io/cosmic-capture-kit-updates/CosmicCaptureKit-0.5.1.dmg",
+      "sha256": "ef910e889d642c9e3092ef57b3a47f8ff6ecc117d99751ebc972bc7184720a21",
+      "size": 76542833
     }
   }
 }

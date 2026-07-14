@@ -1,12 +1,12 @@
 {
-  "version": "0.5.1",
-  "notes": "Fixes for macOS window capture:\n- The single window border now hugs the window's rounded corners.\n- Only the wallpaper shows behind a captured window, with no other windows bleeding through.",
-  "published": "2026-07-14T02:04:43Z",
+  "version": "0.6.0",
+  "notes": "Window capture improvements:\n- Captured windows now show as active or inactive to match the look you choose.\n- The window picker shows each display's own wallpaper instead of a gray background.\n- The window picker arranges many open windows in a grid so they stay large and easy to pick.\n- More windows appear in the picker, including System Settings.\n\nRedesigned window border settings:\n- Separate Active and Inactive borders, each with its own color and width.\n- The active border follows your system accent color by default.\n- A new drop shadow toggle for captured windows.\n\nOther fixes:\n- Your settings no longer reset when the app updates.",
+  "published": "2026-07-14T20:35:22Z",
   "platforms": {
     "macos": {
-      "url": "https://frosthaven.github.io/cosmic-capture-kit-updates/CosmicCaptureKit-0.5.1.dmg",
-      "sha256": "ef910e889d642c9e3092ef57b3a47f8ff6ecc117d99751ebc972bc7184720a21",
-      "size": 76542833
+      "url": "https://frosthaven.github.io/cosmic-capture-kit-updates/CosmicCaptureKit-0.6.0.dmg",
+      "sha256": "cd1995e10974616eecb442e9adb86489de527f2081ab370d1200ff15064068d9",
+      "size": 76398628
     }
   }
 }

@@ -1,12 +1,12 @@
 {
-  "version": "0.6.2",
-  "notes": "Faster launch and a cleaner window picker:\n- Capture launches noticeably faster.\n- The window picker shows only the windows on your current desktop.\n- Stage Manager preview windows and duplicate entries no longer clutter the picker.\n- The window grid no longer overlaps the toolbar.",
-  "published": "2026-07-14T23:30:58Z",
+  "version": "0.6.3",
+  "notes": "Faster launch and a cleaner window picker:\n- Capture launches noticeably faster.\n- The window picker shows the windows on your current desktop across all of your monitors.\n- Stage Manager preview windows and duplicate entries no longer clutter the picker.\n- The window grid no longer overlaps the toolbar.",
+  "published": "2026-07-15T00:01:39Z",
   "platforms": {
     "macos": {
-      "url": "https://frosthaven.github.io/cosmic-capture-kit-updates/CosmicCaptureKit-0.6.2.dmg",
-      "sha256": "3ae340905605d9eb71707f5e3713970466f160397748094e2934b7fb7ad75670",
-      "size": 76381531
+      "url": "https://frosthaven.github.io/cosmic-capture-kit-updates/CosmicCaptureKit-0.6.3.dmg",
+      "sha256": "c5344eb38d2623cfa3d63e0f7b09181576c66158ba38e94b628430f963b03e09",
+      "size": 76385753
     }
   }
 }

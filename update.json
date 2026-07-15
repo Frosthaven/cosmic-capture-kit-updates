@@ -1,7 +1,7 @@
 {
   "version": "0.9.0",
   "notes": "Cursor and window picker fixes:\n- The captured cursor is now taken at the right moment and placed correctly, including across multiple monitors.\n- A cursor indicator shows where the pointer is while you select a region or monitor, and the cursor is hidden while picking a window or during the countdown.\n- For a delayed capture, the cursor is captured at the moment the shot is taken.\n- Picking a window no longer briefly freezes the screen.",
-  "published": "2026-07-15T21:54:18Z",
+  "published": "2026-07-15T21:54:45Z",
   "platforms": {
     "macos": {
       "url": "https://frosthaven.github.io/cosmic-capture-kit-updates/CosmicCaptureKit-0.9.0.dmg",

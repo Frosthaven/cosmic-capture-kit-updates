@@ -1,7 +1,7 @@
 {
   "version": "0.8.0",
   "notes": "A refreshed region selection and faster launches:\n- The selection box has a new look, with corner and edge handles. Set its thickness in Settings under Appearance.\n- Dragging or drawing a region now stops at a monitor edge and only crosses once you push past it. Hold Alt/Option to turn this off.\n- Capture opens noticeably faster, especially window capture.",
-  "published": "2026-07-15T19:34:50Z",
+  "published": "2026-07-15T19:35:22Z",
   "platforms": {
     "macos": {
       "url": "https://frosthaven.github.io/cosmic-capture-kit-updates/CosmicCaptureKit-0.8.0.dmg",

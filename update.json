@@ -1,7 +1,7 @@
 {
   "version": "0.7.0",
   "notes": "A redesigned region selection:\n- The selection box has a fresh look, with corner and edge handles that are easy to grab when resizing.\n- The selection now resists crossing a monitor edge, so it is easy to grab a full display. Hold Alt/Option to turn this off.\n- The capture toolbar now appears on every monitor while you select a region, not just the one holding your selection.\n\nOther fixes:\n- The window picker no longer lists hidden or background windows, such as a browser's closed search bar.",
-  "published": "2026-07-15T17:29:18Z",
+  "published": "2026-07-15T17:29:49Z",
   "platforms": {
     "macos": {
       "url": "https://frosthaven.github.io/cosmic-capture-kit-updates/CosmicCaptureKit-0.7.0.dmg",

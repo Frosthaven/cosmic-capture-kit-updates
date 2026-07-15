@@ -1,12 +1,12 @@
 {
-  "version": "0.6.4",
-  "notes": "Faster launch and a cleaner window picker:\n- Capture launches noticeably faster.\n- The window picker shows the windows on your current desktop across all of your monitors.\n- Background and menu-bar apps, Stage Manager previews, and duplicate entries no longer clutter the picker.\n- The window grid no longer overlaps the toolbar.",
-  "published": "2026-07-15T00:23:48Z",
+  "version": "0.6.5",
+  "notes": "Faster launch and a cleaner window picker:\n- Region capture launches noticeably faster, and the overlay now appears already in place (no shift as it opens).\n- The window picker shows the windows on your current desktop across all of your monitors.\n- Background and menu-bar apps, Stage Manager previews, and duplicate entries no longer clutter the picker.\n- The window grid no longer overlaps the toolbar.",
+  "published": "2026-07-15T14:03:23Z",
   "platforms": {
     "macos": {
-      "url": "https://frosthaven.github.io/cosmic-capture-kit-updates/CosmicCaptureKit-0.6.4.dmg",
-      "sha256": "6e7d0d0a3a944758006bc05c525d2cf1c2f8ebd9f2bac248478f4a3855c82738",
-      "size": 76398499
+      "url": "https://frosthaven.github.io/cosmic-capture-kit-updates/CosmicCaptureKit-0.6.5.dmg",
+      "sha256": "de2677766c3c1734684d0f4f5110c759d8ed1b6b1311eedc68290be56f4ae61f",
+      "size": 76401870
     }
   }
 }

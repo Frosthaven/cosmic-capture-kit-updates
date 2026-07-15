@@ -1,12 +1,12 @@
 {
-  "version": "0.9.0",
-  "notes": "Cursor and window picker fixes:\n- The captured cursor is now taken at the right moment and placed correctly, including across multiple monitors.\n- A cursor indicator shows where the pointer is while you select a region or monitor, and the cursor is hidden while picking a window or during the countdown.\n- For a delayed capture, the cursor is captured at the moment the shot is taken.\n- Picking a window no longer briefly freezes the screen.",
-  "published": "2026-07-15T21:54:45Z",
+  "version": "0.10.0",
+  "notes": "macOS:\n- Loading indicators use a refreshed circular spinner.\n\nCosmic Desktop:\n- Loading indicators use a refreshed circular spinner.\n- The settings and preview windows now use frosted glass.\n- Single-window captures now reproduce the frosted glass backdrop, so a captured window matches how it looks on screen.",
+  "published": "2026-07-15T23:34:09Z",
   "platforms": {
     "macos": {
-      "url": "https://frosthaven.github.io/cosmic-capture-kit-updates/CosmicCaptureKit-0.9.0.dmg",
-      "sha256": "f49420e3bbf5de9036a2486375e9c1ca769f8d0cc1975908efa20d6cd6d85f4b",
-      "size": 76426566
+      "url": "https://frosthaven.github.io/cosmic-capture-kit-updates/CosmicCaptureKit-0.10.0.dmg",
+      "sha256": "48bf83581e28144b115b36f4d19d9371cb05ff1baf7f1bc7b717599c9b9612da",
+      "size": 76414309
     }
   }
 }

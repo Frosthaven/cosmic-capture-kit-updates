@@ -1,7 +1,7 @@
 {
   "version": "0.12.0",
   "notes": "macOS:\n- The preview editor window now opens at the media size: correct aspect ratio, never above 100% scale, and never taller than comfortably fits the monitor.\n- Zooming and panning in the preview editor no longer travel past the edges of the media.\n\nCosmic Desktop:\n- The preview editor window now opens at the media size: correct aspect ratio, never above 100% scale, and never taller than comfortably fits the monitor.\n- Zooming and panning in the preview editor no longer travel past the edges of the media.",
-  "published": "2026-07-16T22:01:54Z",
+  "published": "2026-07-16T22:03:02Z",
   "platforms": {
     "macos": {
       "url": "https://frosthaven.github.io/cosmic-capture-kit-updates/CosmicCaptureKit-0.12.0.dmg",

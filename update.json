@@ -1,12 +1,12 @@
 {
-  "version": "0.10.0",
+  "version": "0.10.1",
   "notes": "macOS:\n- Loading indicators use a refreshed circular spinner.\n\nCosmic Desktop:\n- Loading indicators use a refreshed circular spinner.\n- The settings and preview windows now use frosted glass.\n- Single-window captures now reproduce the frosted glass backdrop, so a captured window matches how it looks on screen.",
-  "published": "2026-07-15T23:34:33Z",
+  "published": "2026-07-16T01:24:30Z",
   "platforms": {
     "macos": {
-      "url": "https://frosthaven.github.io/cosmic-capture-kit-updates/CosmicCaptureKit-0.10.0.dmg",
-      "sha256": "48bf83581e28144b115b36f4d19d9371cb05ff1baf7f1bc7b717599c9b9612da",
-      "size": 76414309
+      "url": "https://frosthaven.github.io/cosmic-capture-kit-updates/CosmicCaptureKit-0.10.1.dmg",
+      "sha256": "d44f21069deb634ceef1febe5d42540e20ea34b7484f9f304ecea76395b3d32d",
+      "size": 76421551
     }
   }
 }

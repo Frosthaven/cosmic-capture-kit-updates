@@ -1,12 +1,12 @@
 {
-  "version": "0.11.0",
-  "notes": "This release marks a major refactor in preparation for supporting more desktop environments",
-  "published": "2026-07-16T14:52:41Z",
+  "version": "0.12.0",
+  "notes": "## v0.12.0\n\nChanges since v0.11.0:\n\n- [`ad20404`](https://github.com/Frosthaven/cosmic-capture-kit/commit/ad204049f0047f4c50991749d610a65c56885dca) ([DRAGON-221](https://linear.app/dragon-development/issue/DRAGON-221)): defer the windowed swap until the composed dims are known\n- [`900ff09`](https://github.com/Frosthaven/cosmic-capture-kit/commit/900ff0909a968af71ff650168b889bc496d793c1) ([DRAGON-221](https://linear.app/dragon-development/issue/DRAGON-221)): re-fit the preview window to the DECODED image\n- [`6452988`](https://github.com/Frosthaven/cosmic-capture-kit/commit/645298870c08e02fc7c05bb13ea2acf6b0390b93) ([DRAGON-221](https://linear.app/dragon-development/issue/DRAGON-221)): unify windowed-preview spawn size + zoom/pan rules (mac/Linux)\n- [`7e174a1`](https://github.com/Frosthaven/cosmic-capture-kit/commit/7e174a130c86d811456b2b1bcd44ac429884761f): chore: archive the DRAGON-220 working log + design (docs/archive)",
+  "published": "2026-07-16T21:54:38Z",
   "platforms": {
     "macos": {
-      "url": "https://frosthaven.github.io/cosmic-capture-kit-updates/CosmicCaptureKit-0.11.0.dmg",
-      "sha256": "f8a2e0051870ac35136df2ed87639444e3ff026bc14e2cd925427167271e5a0a",
-      "size": 76421713
+      "url": "https://frosthaven.github.io/cosmic-capture-kit-updates/CosmicCaptureKit-0.12.0.dmg",
+      "sha256": "2af6c270ea9d8e25fa9dffa20b1feb7de4b4d43c93ea938ac282dd2cf1f9c04b",
+      "size": 76418620
     }
   }
 }

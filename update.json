@@ -1,12 +1,12 @@
 {
-  "version": "0.13.0",
-  "notes": "**Windows is now supported, including Mica.**\r\n\r\nAlso in this release:\r\n\r\n- New **Automatic Contrast Boost** appearance option: your accent color adapts for legibility across the whole interface. Turn it off to use your exact chosen color everywhere.\r",
-  "published": "2026-07-20T14:48:01Z",
+  "version": "0.14.0",
+  "notes": "all platforms:\n- UX and responsive size improvements to the settings window\n\nmacOS:\n- Miscellaneous single window capture improvements\n- Settings window & preview editor now use the glass UI effect, bringing it in line with Cosmic Desktop and Windows.",
+  "published": "2026-07-20T23:48:24Z",
   "platforms": {
     "macos": {
-      "url": "https://frosthaven.github.io/cosmic-capture-kit-updates/CosmicCaptureKit-0.13.0.dmg",
-      "sha256": "317a6d11642419a50377e5353d62a6ee4bfaaba3bab93c9ac9f0e73c1e42ef52",
-      "size": 76439569
+      "url": "https://frosthaven.github.io/cosmic-capture-kit-updates/CosmicCaptureKit-0.14.0.dmg",
+      "sha256": "6fb3edd08ec13c8d4fc423272b147a9a2d73d7787be82614a6ae15a48e986bc7",
+      "size": 76584975
     }
   }
 }

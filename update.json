@@ -1,7 +1,7 @@
 {
   "version": "0.13.0",
-  "notes": "**Windows is now supported, including Mica.**\n\nAlso in this release:\n\n- New **Automatic Contrast Boost** appearance option: your accent color adapts for legibility across the whole interface \u2014 nav links, toggles, sliders, buttons, and the tray icon all match. On by default; turn it off to use your exact chosen color everywhere.\n- The settings window surfaces are now translucent, letting the desktop backdrop show through.\n- Window captures now bring the target window to the foreground and wait for its active styling to settle before grabbing, so the shot always shows the active-window look.\n- The preview editor now opens on-screen at a sensible size on multi-monitor setups, plays back audio, and can pause other media while it's open.",
-  "published": "2026-07-20T07:31:34Z",
+  "notes": "**Windows is now supported, including Mica.**\r\n\r\nAlso in this release:\r\n\r\n- New **Automatic Contrast Boost** appearance option: your accent color adapts for legibility across the whole interface. Turn it off to use your exact chosen color everywhere.\r",
+  "published": "2026-07-20T14:48:01Z",
   "platforms": {
     "macos": {
       "url": "https://frosthaven.github.io/cosmic-capture-kit-updates/CosmicCaptureKit-0.13.0.dmg",

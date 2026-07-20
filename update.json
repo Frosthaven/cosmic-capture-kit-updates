@@ -1,12 +1,12 @@
 {
-  "version": "0.12.0",
-  "notes": "- The preview editor window now opens at the media size: correct aspect ratio, never above 100% scale, and never taller than comfortably fits the monitor.\r\n- Zooming and panning in the preview editor no longer travel past the edges of the media.",
-  "published": "2026-07-16T22:03:35Z",
+  "version": "0.13.0",
+  "notes": "**Windows is now supported, including Mica.**\n\nAlso in this release:\n\n- New **Automatic Contrast Boost** appearance option: your accent color adapts for legibility across the whole interface \u2014 nav links, toggles, sliders, buttons, and the tray icon all match. On by default; turn it off to use your exact chosen color everywhere.\n- The settings window surfaces are now translucent, letting the desktop backdrop show through.\n- Window captures now bring the target window to the foreground and wait for its active styling to settle before grabbing, so the shot always shows the active-window look.\n- The preview editor now opens on-screen at a sensible size on multi-monitor setups, plays back audio, and can pause other media while it's open.",
+  "published": "2026-07-20T07:31:34Z",
   "platforms": {
     "macos": {
-      "url": "https://frosthaven.github.io/cosmic-capture-kit-updates/CosmicCaptureKit-0.12.0.dmg",
-      "sha256": "2af6c270ea9d8e25fa9dffa20b1feb7de4b4d43c93ea938ac282dd2cf1f9c04b",
-      "size": 76418620
+      "url": "https://frosthaven.github.io/cosmic-capture-kit-updates/CosmicCaptureKit-0.13.0.dmg",
+      "sha256": "317a6d11642419a50377e5353d62a6ee4bfaaba3bab93c9ac9f0e73c1e42ef52",
+      "size": 76439569
     }
   }
 }

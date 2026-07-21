@@ -1,12 +1,12 @@
 {
-  "version": "0.15.0",
-  "notes": "All Platforms:\r\n- UX improvements\r\n\r\nmacOS:\r\n- Window capture now does a true recomposite, allowing for the capture of glass effects and translucency/blur. This completely bypasses a mac limitation where even Apple's own capture tools cannot capture glass effects.\r",
-  "published": "2026-07-21T12:50:43Z",
+  "version": "0.15.1",
+  "notes": "All Platforms:\n- UX improvements\n\nmacOS:\n- Window capture now does a true recomposite, allowing for the capture of glass effects and translucency/blur. This completely bypasses a mac limitation where even Apple's own capture tools cannot capture glass effects.",
+  "published": "2026-07-21T15:01:40Z",
   "platforms": {
     "macos": {
-      "url": "https://frosthaven.github.io/cosmic-capture-kit-updates/CosmicCaptureKit-0.15.0.dmg",
-      "sha256": "3ff175eeec530b792f3e0b45501c0371e20ab31d64a710abe58f09ebde23190d",
-      "size": 76579029
+      "url": "https://frosthaven.github.io/cosmic-capture-kit-updates/CosmicCaptureKit-0.15.1.dmg",
+      "sha256": "b56ef516a4e0919d166380a6fe3341993167d20fae048f3d7024ef7fbe184ace",
+      "size": 77159493
     }
   }
 }

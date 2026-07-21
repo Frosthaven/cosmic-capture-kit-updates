@@ -1,12 +1,12 @@
 {
-  "version": "0.14.0",
-  "notes": "all platforms:\n- UX and responsive size improvements to the settings window\n\nmacOS:\n- Miscellaneous single window capture improvements\n- Settings window & preview editor now use the glass UI effect, bringing it in line with Cosmic Desktop and Windows.",
-  "published": "2026-07-20T23:48:24Z",
+  "version": "0.15.0",
+  "notes": "All Platforms:\n- UX improvements\n\nWindows:\n- There is now a brief full screen loader while compositing single window aesthetics to prevent breaking the composite.\n\nmacOS:\n- Window capture now does a true recomposite, allowing for the capture of glass effects and translucency/blur. This completely bypasses a mac limitation where even Apple's own capture tools cannot capture glass effects.",
+  "published": "2026-07-21T12:24:38Z",
   "platforms": {
     "macos": {
-      "url": "https://frosthaven.github.io/cosmic-capture-kit-updates/CosmicCaptureKit-0.14.0.dmg",
-      "sha256": "6fb3edd08ec13c8d4fc423272b147a9a2d73d7787be82614a6ae15a48e986bc7",
-      "size": 76584975
+      "url": "https://frosthaven.github.io/cosmic-capture-kit-updates/CosmicCaptureKit-0.15.0.dmg",
+      "sha256": "3ff175eeec530b792f3e0b45501c0371e20ab31d64a710abe58f09ebde23190d",
+      "size": 76579029
     }
   }
 }

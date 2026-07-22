@@ -1,12 +1,12 @@
 {
-  "version": "0.15.1",
-  "notes": "All Platforms:\n- UX improvements\n\nmacOS:\n- Window capture now does a true recomposite, allowing for the capture of glass effects and translucency/blur. This completely bypasses a mac limitation where even Apple's own capture tools cannot capture glass effects.",
-  "published": "2026-07-21T15:01:40Z",
+  "version": "0.16.1",
+  "notes": "All Platforms:\n- The capture hotkey is now three separate actions: Capture All In One (the full picker overlay), Capture Active Window, and Capture Active Monitor. The two new ones capture instantly, with no picker. All default to unbound; set them in Settings > Keyboard Shortcuts.\n- Immediate captures follow your delivery settings exactly (copy to clipboard / open the preview editor) and open the editor on the correct monitor.\n- The settings window and preview editor now have proper titles (\"Cosmic Capture Kit - Settings\" / \"Cosmic Capture Kit - Preview Editor\"). If you float them in a tiling window manager by title, see the updated README rules; COSMIC float exceptions migrate automatically.\n- The settings window remembers its size between launches.\n- General settings: \"Keep system tray icon\" (renamed), with a new \"Automatically start on login\" toggle beneath it.\n- When recording system audio with a mic, ducking responds only to real speech from an enabled mic, never to background noise and never when the mic is off.\n\nmacOS:\n- Keyboard shortcut fields show native modifier symbols (\u2303\u2325\u21e7\u2318) universally.\n- Capturing a full-screen app window now grabs the window contents instead of the capture loading cover.\n\nWindows:\n- Windows now live-resizes: the settings window and preview editor re-layout and rescale during a resize drag, matching macOS.\n- Recording system audio keeps the dialog (center) channel on surround and spatial endpoints, and loud surround is smoothly limited instead of clipped.\n- A recording that hits an encoder stall now recovers and saves instead of hanging forever.\n- Single-window captures show the fullscreen loading cover with a cancel button, like macOS.\n- Capture selectors no longer appear in the taskbar; only the editor and settings do.\n- The system tray is on by default (with start-on-login); both can be switched off in General settings.\n- Fixed a crash that could kill the settings window as it opened, and Windows-key chords now display as \"Win+...\".",
+  "published": "2026-07-22T04:23:39Z",
   "platforms": {
     "macos": {
-      "url": "https://frosthaven.github.io/cosmic-capture-kit-updates/CosmicCaptureKit-0.15.1.dmg",
-      "sha256": "b56ef516a4e0919d166380a6fe3341993167d20fae048f3d7024ef7fbe184ace",
-      "size": 77159493
+      "url": "https://frosthaven.github.io/cosmic-capture-kit-updates/CosmicCaptureKit-0.16.1.dmg",
+      "sha256": "95f544066c74973ed1a8f53d51d48ec7e68d048e5685a4ce30309967dd29ef9c",
+      "size": 76654758
     }
   }
 }

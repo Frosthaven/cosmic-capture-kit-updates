@@ -1,12 +1,12 @@
 {
-  "version": "0.17.0",
-  "notes": "**All Platforms:**\n- New capture hotkeys: Capture Active Window and Capture Active Monitor instantly grab the focused window, or the monitor under it, with no picker. The old Start Capture action is now Capture All In One. All three hotkeys ship unbound by default, so you assign the keys you want.\n- The preview editor now opens on the display you started the capture from, even when the captured window is on another monitor. Switching from windowed to full-screen editing follows the monitor the editor is currently on.\n- Capturing a window that lives on another monitor now correctly grabs it in its active state when it is set to active in settings.\n\n**macOS:**\n- The preview editor's keyboard shortcuts (copy, save, save as, delete) now work the moment it opens, with no click needed first.\n- Under the AeroSpace tiling window manager, the preview editor and Settings window stay on the monitor you triggered from instead of being pulled onto another workspace.\n- Fixed the preview editor opening too small when the captured content was on a different-resolution display.\n- Capturing the active window now targets the focused window; onboarding requests the Accessibility permission it needs.\n\n**Windows:**\n- Capturing a glass or acrylic window now shows the desktop wallpaper behind it instead of the other windows that were there, matching macOS.\n- The Settings window now tiles correctly under the komorebi tiling window manager.\n- Restored the Mica material on focused Settings and preview title bars.",
-  "published": "2026-07-22T22:02:14Z",
+  "version": "0.17.1",
+  "notes": "**All Platforms:**\n- The region selection box is now sleeker: thinner lines by default, shorter corner arms, and tighter gaps.\n\n**Linux (COSMIC):**\n- The Capture Active Monitor hotkey and `--active-monitor` CLI flag now capture immediately (as intended) instead of opening the monitor selector.\n- The preview editor now opens on the display you started the capture from, in both windowed and full-screen modes, matching macOS and Windows.\n- Removed deprecated settings to control float status, as this is now controlled through tiling window manager configs.\n\n**Windows:**\n- Recorded system audio now properly retains its loudness.\n- Muting system audio during a recording now properly works as expected instead of allowing light audio bleed through.\n- Overlays no longer flicker when being brought into view.",
+  "published": "2026-07-25T00:18:35Z",
   "platforms": {
     "macos": {
-      "url": "https://frosthaven.github.io/cosmic-capture-kit-updates/CosmicCaptureKit-0.17.0.dmg",
-      "sha256": "24b5116751af0bfa61baf2ac34c4fefac1c688470112068e55a1c8abd202962d",
-      "size": 77352954
+      "url": "https://frosthaven.github.io/cosmic-capture-kit-updates/CosmicCaptureKit-0.17.1.dmg",
+      "sha256": "6adfa511bf8d51574c82b386373c3f0e3ffb3207df6902f3077dff17e5e1cb3c",
+      "size": 76761060
     }
   }
 }
